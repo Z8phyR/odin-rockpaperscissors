@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+h2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+html {
+    background-color: skyblue;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    border-bottom: 3px solid darkgrey;
+    font-size: 1.5rem;
+}
+.info {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+border-bottom: 2px solid steelblue
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: steelblue;
+    border: none;
+    border-radius: 15px;
+    /* text-align: center; */
+    transition: 0.2s;
+}
+button:hover {
+    transform: scale(1.1,1.1);
+}
+.gameArea {
+    background-color: skyblue;
+    padding: 10px;
+    margin: 10px;
+}
+.buttons {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.buttons button {
+    width: 100px;
+}
+.buttongrp {
+    display: flex;
+
+}
+p {
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer, .player {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.gameDisplay {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer {
+    position: absolute;
+    font-size: .9rem;
+    bottom: 4px;
+    left: 45%;
+}
