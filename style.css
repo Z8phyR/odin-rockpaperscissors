@@ -17,7 +17,7 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     background-color: lightblue;
-    border-bottom: 3px solid darkgrey;
+    border-bottom: 3px solid steelblue;
     font-size: 1.5rem;
 }
 .info {
@@ -28,11 +28,11 @@ header {
     margin: 10px;
     padding: 10px;
     gap: 20px;
-border-bottom: 2px solid steelblue
+
 }
 button {
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     background-color: steelblue;
     border: none;
     border-radius: 15px;
@@ -51,10 +51,13 @@ button:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    /* width: 300px; */
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    border-left: 1px solid steelblue;
+    border-right: 1px solid steelblue;
+    border-radius: 15px;
 }
 .buttons button {
     width: 100px;
@@ -82,12 +85,22 @@ p {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    
+    border: 1px solid steelblue;
+    border-radius: 20px;
 }
 
 footer {
-    position: absolute;
+position: absolute;
     font-size: .9rem;
     bottom: 4px;
-    left: 45%;
+    left: 45vw;;
+}
+
+.newgame {
+    display: none;
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 49%;
+
 }
